@@ -1,4 +1,4 @@
-# intercalc
+# InterCalc
 
 ## Introduction
 
