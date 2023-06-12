@@ -14,7 +14,7 @@ If you have a battery with a voltage of 12 ± 1 V (that is, \[11, 13\] V) and a 
 ```
 I have used dunder methods to enable the use of familiar operations.
 
-## One crucial limitation
+## One significant limitation
 
 If you perform a calculation where the same variable appears in multiple places, it will be treated as if each occurrence were a different variable. For example:
 ```
