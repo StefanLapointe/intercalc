@@ -2,7 +2,9 @@
 
 ## Introduction
 
-If you have a battery with a voltage of 12 ± 1 V (that is, \[11, 13\] V) and a circuit with a resistance of 3 ± 1 Ω (that is, \[2, 4\] Ω), then the current is \[11/4, 13/2\] Ω. This module is meant for performing such calculations. You would perform the calculation as follows:
+Scientific calculations often involve uncertainty intervals. Such calculations difficult and tedious to perform correctly with a conventional calculator. This module is like a calculator created specifically to deal with uncertainty intervals.
+
+For example, if you have a battery with a voltage of 12 ± 1 V (that is, \[11, 13\] V) and a circuit with a resistance of 3 ± 1 Ω (that is, \[2, 4\] Ω), then the current is \[11/4, 13/2\] Ω. This module is meant for performing such calculations. You would perform the calculation as follows:
 ```
 >>> from intercalc import *
 >>> i = interval # Typing interval every time you want to construct a new interval is rather tedious.
