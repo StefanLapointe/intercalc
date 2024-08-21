@@ -26,7 +26,7 @@ If you perform a calculation where the same variable appears in multiple places,
 ```
 Obviously `a - a` should yield exactly 0, but implementing such behaviour would require significantly more work, and in my experience, most formulae one comes across do not feature repeated variables.
 
-## "Documentation"
+## How to use
 
 ### Arithmetic and powers
 
