@@ -11,7 +11,7 @@ For example, if you have a battery with a voltage of 12 ± 1 V (that is, \[11, 1
 >>> v = i(11, 13)
 >>> r = i(2, 4)
 >>> c = v / r
->>> print()
+>>> print(c)
 [2.75, 6.5]
 ```
 I have used dunder methods to enable the use of familiar operations.
