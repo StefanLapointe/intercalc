@@ -28,6 +28,10 @@ Obviously `a - a` should yield exactly 0, but implementing such behaviour would 
 
 ## How to use
 
+### Constructing intervals
+
+Interval objects are constructed with `i()`. For example, `i(5, 6)` to construct the interval \[5, 6\].
+
 ### Arithmetic and powers
 
 Use `+`, `-`, `*`, and `/` operators as you would with floats.
